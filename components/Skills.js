@@ -25,7 +25,7 @@ export default function Skills() {
           transition={{ duration: 0.4 }}
           className="mx-auto max-w-3xl text-center md:mb-20 lg:mb-24"
         >
-          <h2 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl">
+          <h2 className="text-3xl mr-2 font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl">
             Technologies I Use
           </h2>
 
@@ -36,7 +36,7 @@ export default function Skills() {
         </motion.div>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-8">
+        <div className="grid grid-cols-2 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-8">
           {skills.map((skill, index) => {
             const Icon = skill.icon;
 
@@ -54,7 +54,7 @@ export default function Skills() {
                   y: -10,
                   scale: 1.03,
                 }}
-                className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 text-center backdrop-blur-xl transition-all duration-300 hover:border-red-500/40 hover:bg-white/[0.08] sm:p-7 lg:p-8"
+                className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-4 text-center backdrop-blur-xl transition-all duration-300 hover:border-red-500/40 hover:bg-white/[0.08] sm:p-7 lg:p-8"
               >
                 {/* Hover Glow */}
                 <div className="absolute inset-0 bg-gradient-to-br from-red-500/10 via-transparent to-cyan-500/10 opacity-0 transition duration-500 group-hover:opacity-100" />

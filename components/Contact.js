@@ -168,21 +168,23 @@ export default function Contact() {
               className="group flex items-center justify-between rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-yellow-500 hover:bg-white/10"
             >
               <div className="flex items-center gap-4">
-                <div className="rounded-xl bg-yellow-500/40 p-4 text-yellow-300 transition-all duration-300 group-hover:bg-amber-500 group-hover:text-white">
+                <div className="rounded-xl ml-2 bg-yellow-500/40 p-4 text-yellow-300 transition-all duration-300 group-hover:bg-amber-500 group-hover:text-white">
                   <FaEnvelope size={22} />
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold">Email</h3>
+                  <h3 className="text-lg lg:ml-0 md:ml-0 ml-10 font-semibold">Email</h3>
                   <p className="mt-1 text-gray-400 group-hover:text-white transition">
                     dhanushsm617@gmail.com
                   </p>
+                  <div className="mt-3 ml-8 text-sm font-medium text-yellow-400 sm:hidden">
+                    Click to Mail →
+                  </div>
                 </div>
               </div>
 
-              <div className="text-sm sm:flex items-center gap-2 text-yellow-400 font-medium group-hover:translate-x-2 transition-all duration-300">
-                <span>Click to Mail</span>
-                {/* <span className="text-xl">←</span> */}
+              <div className="hidden text-sm font-medium text-yellow-400 transition-all duration-300 group-hover:translate-x-2 sm:block">
+                Click to Mail →
               </div>
             </a>
 
@@ -192,21 +194,23 @@ export default function Contact() {
               className="group flex items-center justify-between rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-white/10"
             >
               <div className="flex items-center gap-4">
-                <div className="rounded-xl bg-blue-500/40 p-4 text-blue-400 transition-all duration-300 group-hover:bg-blue-500 group-hover:text-white">
+                <div className="rounded-xl ml-3 bg-blue-500/40 p-4 text-blue-400 transition-all duration-300 group-hover:bg-blue-500 group-hover:text-white">
                   <FaPhoneAlt size={22} />
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold">Phone</h3>
-                  <p className="mt-1 text-gray-400 group-hover:text-white transition">
+                  <h3 className="text-lg lg:ml-0 md:ml-0 ml-10 font-semibold">Phone</h3>
+                  <p className="mt-1 ml-2 text-gray-400 group-hover:text-white transition">
                     +91 74831 25842
                   </p>
+                  <div className="mt-3 ml-8 text-sm font-medium text-blue-400 sm:hidden">
+                    Click to Call →
+                  </div>
                 </div>
               </div>
 
-              <div className="text-sm sm:flex items-center gap-2 text-blue-400 font-medium group-hover:translate-x-2 transition-all duration-300">
-                <span>Click to Call</span>
-                {/* <span className="text-xl">←</span> */}
+              <div className="hidden text-sm font-medium text-blue-400 transition-all duration-300 group-hover:translate-x-2 sm:block">
+                Click to Call →
               </div>
             </a>
 
@@ -218,21 +222,23 @@ export default function Contact() {
               className="group flex items-center justify-between rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-green-500 hover:bg-white/10"
             >
               <div className="flex items-center gap-4">
-                <div className="rounded-xl bg-green-500/15 p-4 text-green-500 transition-all duration-300 group-hover:bg-green-500 group-hover:text-white">
+                <div className="rounded-xl ml-3 bg-green-500/15 p-4 text-green-500 transition-all duration-300 group-hover:bg-green-500 group-hover:text-white">
                   <FaWhatsapp size={22} />
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold">WhatsApp</h3>
-                  <p className="mt-1 text-gray-400 group-hover:text-white transition">
+                  <h3 className="text-lg lg:ml-0 md:ml-0 ml-10 font-semibold">WhatsApp</h3>
+                  <p className="mt-1 ml-2 text-gray-400 group-hover:text-white transition">
                     +91 74831 25842
                   </p>
+                  <div className="mt-3 ml-5 text-sm font-medium text-green-400 sm:hidden">
+                    Chat on WhatsApp →
+                  </div>
                 </div>
               </div>
 
-              <div className="text-sm sm:flex items-center gap-2 text-green-400 font-medium group-hover:translate-x-2 transition-all duration-300">
-                <span>Chat on WhatsApp</span>
-                {/* <span className="text-xl">←</span> */}
+              <div className="hidden text-sm font-medium text-green-400 transition-all duration-300 group-hover:translate-x-2 sm:block">
+                Chat on WhatsApp →
               </div>
             </a>
 
@@ -244,21 +250,24 @@ export default function Contact() {
               className="group flex items-center justify-between rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-red-500 hover:bg-white/10"
             >
               <div className="flex items-center gap-4">
-                <div className="rounded-xl bg-red-500/15 p-4 text-red-500 transition-all duration-300 group-hover:bg-red-500 group-hover:text-white">
+                <div className="rounded-xl ml-3 bg-red-500/15 p-4 text-red-500 transition-all duration-300 group-hover:bg-red-500 group-hover:text-white">
                   <FaMapMarkerAlt size={22} />
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold">Location</h3>
-                  <p className="mt-1 text-gray-400 group-hover:text-white transition">
+                  <h3 className="text-lg lg:ml-0 md:ml-0 ml-10 font-semibold">Location</h3>
+                  <p className="mt-1 ml-4 text-gray-400 group-hover:text-white transition">
                     Karnataka, India
                   </p>
+              <div className="mt-3 ml-8 text-sm font-medium text-red-400 sm:hidden">
+                View on Maps →
+              </div>
                 </div>
               </div>
 
-              <div className="text-sm sm:flex items-center gap-2 text-red-400 font-medium group-hover:translate-x-2 transition-all duration-300">
-                <span>View on Maps </span>
-                {/* <span className="text-sm"></span> */}
+
+              <div className="hidden text-sm font-medium text-red-400 transition-all duration-300 group-hover:translate-x-2 sm:block">
+                View on Maps →
               </div>
             </a>
           </motion.div>

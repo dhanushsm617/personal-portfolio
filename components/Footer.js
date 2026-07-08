@@ -87,14 +87,14 @@ export default function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="border-t border-white/10 pt-12 pb-8 text-center"
+          className="border- border-white/10 pt-12 pb-8 text-center"
         >
-          <p className="text-lg md:text-xl italic text-gray-300 max-w-3xl mx-auto leading-8">
-            ❝ With great <span className="text-red-400 animate-pulse">power</span> comes great <span className="text-red-400 animate-pulse">responsibility</span>. ❞
+          <p className="px-4 text-lg md:text-xl font-bold text-gray-300 max-w-3xl mx-auto leading-8">
+            ❝ With great <span className="text-red-400 animate-pulse">Power</span> comes great <span className="text-red-400 animate-pulse">Responsibility</span>. ❞
           </p>
 
-          <p className="mt-3 text-sm uppercase tracking-[4px] text-[#ff5b5b]">
-            — 
+          <p className="mt-3 text-3xl uppercase tracking-[4px] text-[#c8d188]">
+            ☺ 
           </p>
         </motion.div>
 

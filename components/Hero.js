@@ -39,7 +39,7 @@ export default function Hero() {
           className="order-2 lg:order-1 text-center lg:text-left flex flex-col gap-6"
         >
           <div>
-            <h1 className="text-5xl md:text-7xl xl:text-7xl font-black leading-tight">
+            <h1 className="text-5xl mr-9 md:text-7xl xl:text-7xl font-black leading-tight">
               Hi,
               <br />
               I'm{" "}
@@ -49,18 +49,18 @@ export default function Hero() {
             </h1>
           </div>
 
-          <p className="text-xl md:text-2xl text-gray-300">
+          <p className="text-xl mr-9 md:text-2xl text-gray-300">
             Full <span className="text-amber-500">Stack</span> Developer
           </p>
 
-          <p className="max-w-md text-gray-400 leading-8 mx-auto lg:mx-0">
+          <p className="max-w-md mr-9 text-gray-400 leading-8 mx-auto lg:mx-0">
             Passionate about building modern, responsive and high-performance
             web applications using React, Next.js, Tailwind CSS and MongoDB.
           </p>
 
           {/* Buttons */}
 
-          <div className="flex flex-wrap justify-center lg:justify-start gap-8">
+          <div className="flex mr-9 flex-wrap justify-center lg:justify-start gap-8">
             <a href="https://wa.me/917483125842?text=Hi%20Dhanush,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.">
               <button className="group px-8 py-4 rounded-xl bg-blue-500 hover:bg-[#d25212] transition-all duration-300 flex items-center gap-3 shadow-lg shadow-blue-500/30">
                 Say Hi!
@@ -133,7 +133,7 @@ export default function Hero() {
               duration: 25,
               ease: "linear",
             }}
-            className="absolute w-90 h-90 md:w-120 md:h-120 rounded-full border border-white/10"
+            className="absolute w-90 mr-14 h-90 md:w-120 md:h-120 rounded-full border border-white/10"
           />
 
           {/* Floating Image */}
@@ -146,7 +146,7 @@ export default function Hero() {
               repeat: Infinity,
               duration: 5,
             }}
-            className="relative items-center justify-center mb-15 flex w-80 h-80 md:w-120 md:h-110 rounded-full "
+            className="relative  items-center justify-center mb-15 flex w-80 h-80 md:w-120 md:h-110 rounded-full "
           >
             <Image
               src="/images/dha.png"
@@ -154,7 +154,7 @@ export default function Hero() {
               width={500}
               height={650}
               priority
-              className="relative object-contain  rounded-full drop-shadow-[0_20px_60px_rgba(255,90,95,.5)]"
+              className="relative mr-13 object-contain  rounded-full drop-shadow-[0_20px_60px_rgba(255,90,95,.5)]"
             />
 
             {/* Bottom Fade */}
@@ -170,11 +170,11 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="order-3 text-center lg:text-left"
         >
-          <h3 className="text-[#ff5b5b] text-xl font-semibold uppercase tracking-wider">
+          <h3 className="text-[#ff5b5b] mr-9 text-xl font-semibold uppercase tracking-wider">
             About Me
           </h3>
 
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight mt-5">
+          <h2 className="text-4xl mr-9 md:text-5xl font-bold leading-tight mt-5">
             Crafting
             <br />
             Beautiful Digital
@@ -182,7 +182,7 @@ export default function Hero() {
             Experiences.
           </h2>
 
-          <p className="text-gray-400 leading-8 mt-8">
+          <p className="text-gray-400 mr-9 leading-8 mt-8">
             I specialize in creating beautiful websites with modern UI, smooth
             animations, responsive layouts and scalable backend architecture. I
             love transforming ideas into engaging digital experiences.
