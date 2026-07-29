@@ -12,7 +12,7 @@ export const projects = [
     description:
       "A complete Human Resource Management System developed using Next.js and MongoDB. It helps organizations manage employees, attendance, payroll, recruitment, leave requests, and performance in one platform.",
 
-    image: "/images/office.jpg",
+    image: "/images/dash.jpg",
 
     tech: [
       "Next.js",
@@ -54,7 +54,7 @@ export const projects = [
     description:
       "A premium portfolio website showcasing my projects, skills, and experience with beautiful animations, glassmorphism, responsive layouts, and an integrated AI chatbot.",
 
-    image: "/images/dash.jpg",
+    image: "/images/pp.jpg",
 
     tech: [
       "Next.js",
@@ -76,25 +76,25 @@ export const projects = [
       "Social Links",
     ],
 
-    github: "#",
+    github: "https://github.com/dhanushsm617/personal-portfolio",
 
     demo: "#",
   },
 
   {
     id: 3,
-    title: "E-Commerce Website",
+    title: "E-Commerce (mini-super)",
 
     category: "Full Stack E-Commerce",
 
-    year: "2025",
+    year: "2026",
 
-    status: "Not Completed",
+    status: "Completed",
 
     description:
       "A modern e-commerce platform where users can browse products, manage their cart, authenticate securely, and place orders with a clean and responsive interface.",
 
-    image: "/images/office.jpg",
+    image: "/images/mini-s.webp",
 
     tech: [
       "React",
@@ -117,7 +117,7 @@ export const projects = [
       "Admin Dashboard",
     ],
 
-    github: "#",
+    github: "https://github.com/dhanushsm617/super-mini-market",
 
     demo: "#",
   },
