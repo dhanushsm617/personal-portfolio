@@ -72,10 +72,10 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Dhanush_SM.pdf"
+              href="/DhanushSM_Resume.pdf"
               className=" sm:w-auto text-center px-7 py-3.5 rounded-xl border border-white/10 hover:border-[#ff5b5b] hover:bg-white/5 transition duration-300 text-white font-medium"
             >
-              Download CV
+              View Resume
             </a>
           </div>
         </motion.div>
