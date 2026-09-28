@@ -114,12 +114,12 @@ export default function Hero() {
             className="relative w-66 h-66 sm:w-82 sm:h-82 lg:w-84 lg:h-84 xl:w-108 xl:h-108 flex items-center justify-center rounded-full"
           >
             <Image
-              src="/images/dha.png"
+              src="/images/portdhanu1.png"
               alt="Dhanush Profile"
               width={500}
               height={650}
               priority
-              className="object-contain w-full h-full rounded-full drop-shadow-[0_15px_35px_rgba(255,90,95,0.4)]"
+              className="object-contain w-full h-full rounded-full drop-shadow-[0_15px_35px_rgba(250,90,95,0.4)]"
             />
           </motion.div>
         </motion.div>

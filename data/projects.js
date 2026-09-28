@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "HRMS Management System",
+    title: "HR Management System",
 
     category: "Full Stack Web Application",
 
@@ -21,6 +21,7 @@ export const projects = [
       "MongoDB",
       "JWT Authentication",
       "Node.js",
+      "Rest API"
     ],
 
     features: [
@@ -103,6 +104,7 @@ export const projects = [
       "MongoDB",
       "Tailwind CSS",
       "JWT Authentication",
+      "Rest API"
     ],
 
     features: [

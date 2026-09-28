@@ -91,7 +91,7 @@ export default function ChatWindow({
 
           <div>
             <h2 className="font-bold text-white">
-              Dhanush AI
+              Dhanush's AI
             </h2>
 
             <p className="text-xs text-green-400">

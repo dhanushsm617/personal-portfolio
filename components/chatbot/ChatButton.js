@@ -31,12 +31,12 @@ export default function ChatButton({
       transition={{
         x: {
           type: "spring",
-          stiffness: 400,
+          stiffness: 100,
           damping: 30,
         },
         y: {
           type: "spring",
-          stiffness: 400,
+          stiffness: 100,
           damping: 30,
         },
         boxShadow: {
