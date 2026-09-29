@@ -76,11 +76,11 @@ export const skills = [
     category: "Tools / Platform",
   },
 
-  {
-    title: "Claude",
-    icon: SiClaude,
-    color: "text-orange-500",
-    category: "Tools",
-  },
+  // {
+  //   title: "Claude",
+  //   icon: SiClaude,
+  //   color: "text-orange-500",
+  //   category: "Tools",
+  // },
   
 ];
