@@ -54,7 +54,7 @@ export default function Hero() {
 
           <p className="max-w-md text-sm sm:text-base text-gray-400 leading-relaxed">
             Passionate about building modern, responsive, and high-performance
-            web applications using React, Next.js, Tailwind CSS, and MongoDB.
+            web applications using React, Next.js, JavaScript, HTML5 Tailwind CSS, and MongoDB.
           </p>
 
           {/* Action Buttons */}
@@ -142,9 +142,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-gray-400 text-sm sm:text-base leading-relaxed max-w-md">
-            I specialize in creating beautiful websites with modern UI, smooth
-            animations, responsive layouts, and scalable backend architecture. I
-            love transforming ideas into engaging digital experiences.
+            I’m a passionate Full Stack Developer focused on crafting modern and responsive. I combine clean code, intuitive UI, smooth animations, and scalable backend architecture to turn ideas into meaningful digital products.
           </p>
         </motion.div>
 

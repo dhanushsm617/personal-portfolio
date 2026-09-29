@@ -146,8 +146,7 @@ export default function Footer() {
           {/* Copyright */}
 
           <p className="text-center text-gray-500">
-            © {year} <span className=" font-semibold">Dhanush</span>.
-            All rights reserved.
+            © {year} <span className=" font-semibold">Built by Dhanush</span>.
           </p>
 
           {/* Back To Top */}

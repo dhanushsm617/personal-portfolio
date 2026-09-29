@@ -12,7 +12,18 @@ export const projects = [
     description:
       "A complete Human Resource Management System developed using Next.js and MongoDB. It helps organizations manage employees, attendance, payroll, recruitment, leave requests, and performance in one platform.",
 
+    // First slide (kept so old code using `image` still works)
     image: "/images/dash.jpg",
+
+    // Slideshow images (auto-rotate). Replace with your real file names.
+    images: [
+      "/images/hr1.png",
+      "/images/hr2.png",
+      "/images/hr3.png",
+      "/images/hr4.png",
+      "/images/hr5.png",
+      "/images/hr6.png",
+    ],
 
     tech: [
       "Next.js",
@@ -21,7 +32,7 @@ export const projects = [
       "MongoDB",
       "JWT Authentication",
       "Node.js",
-      "Rest API"
+      "Rest API",
     ],
 
     features: [
@@ -56,6 +67,13 @@ export const projects = [
       "A premium portfolio website showcasing my projects, skills, and experience with beautiful animations, glassmorphism, responsive layouts, and an integrated AI chatbot.",
 
     image: "/images/pp.jpg",
+
+    images: [
+      "/images/pf1.png",
+      "/images/pf2.png",
+      "/images/pf3.png",
+      "/images/pf4.png",
+    ],
 
     tech: [
       "Next.js",
@@ -97,6 +115,16 @@ export const projects = [
 
     image: "/images/mini-s.webp",
 
+    images: [
+      "/images/ms1.png",
+      "/images/ms2.png",
+      "/images/ms3.png",
+      "/images/ms4.png",
+      "/images/ms5.png",
+      "/images/ms6.png",
+      "/images/ms7.png",
+    ],
+
     tech: [
       "React",
       "Next.js",
@@ -104,7 +132,8 @@ export const projects = [
       "MongoDB",
       "Tailwind CSS",
       "JWT Authentication",
-      "Rest API"
+      "Rest API",
+      "Google Login"
     ],
 
     features: [

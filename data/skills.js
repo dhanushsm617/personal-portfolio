@@ -7,6 +7,9 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiGit,
+  SiClaude,
+  SiGithub,
+  SiVercel
 } from "react-icons/si";
 
 import { FaCss3Alt } from "react-icons/fa";
@@ -22,7 +25,7 @@ export const skills = [
     title: "Next.js",
     icon: SiNextdotjs,
     color: "text-white",
-    category: "Frontend",
+    category: "Frontend / Backend",
   },
   {
     title: "Tailwind CSS",
@@ -34,7 +37,7 @@ export const skills = [
     title: "JavaScript",
     icon: SiJavascript,
     color: "text-yellow-400",
-    category: "Frontend",
+    category: "Frontend / Backend",
   },
   {
     title: "HTML5",
@@ -63,7 +66,21 @@ export const skills = [
   {
     title: "Git",
     icon: SiGit,
+    color: "text-orange-300",
+    category: "Tools",
+  },
+  {
+    title: "GitHub",
+    icon: SiGithub,
+    color: "",
+    category: "Tools / Platform",
+  },
+
+  {
+    title: "Claude",
+    icon: SiClaude,
     color: "text-orange-500",
     category: "Tools",
   },
+  
 ];

@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { projects } from "@/data/projects";
+import ImageSlideshow from "@/components/ImageSlideshow";
 
 export default function Projects() {
   return (
@@ -56,18 +56,18 @@ export default function Projects() {
               }}
               className="group overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl transition-all duration-300 hover:border-[#ff5b5b]/40 hover:shadow-[0_0_35px_rgba(255,91,91,.15)]"
             >
-              {/* Image */}
+              {/* Image Slideshow */}
 
               <div className="relative overflow-hidden">
-                <Image
-                  src={project.image}
+                <ImageSlideshow
+                  images={project.images || [project.image]}
                   alt={project.title}
-                  width={700}
-                  height={500}
-                  className="h-52 w-full object-cover transition duration-700 group-hover:scale-110 sm:h-56 lg:h-64"
+                  interval={3500}
+                  className="h-52 w-full sm:h-56 lg:h-64"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                {/* Dark gradient over the images (clicks pass through to the dots) */}
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               </div>
 
               {/* Content */}
